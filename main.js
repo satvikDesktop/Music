@@ -26,6 +26,12 @@ let track_list = [
         artist: "satvik",
         image: "https://www.linkpicture.com/q/regal_1.png",
         path: "https://www.mboxdrive.com/Royalty.mp3"
+    },
+     {
+        name: "Continuos",
+        artist: "satvik",
+        image: "https://www.linkpicture.com/q/continous.png",
+        path: "https://www.mboxdrive.com/Continous.mp3"
     }
 ];
 
