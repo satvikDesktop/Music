@@ -41,10 +41,7 @@ scrollbar-width: none;
     font-size: 3rem;
 }
 
-.track-artist {
-    font-size: 1.5rem;
-    opacity: 0.4;
-}
+
 
 .buttons {
     display: flex;

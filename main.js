@@ -23,15 +23,21 @@ let curr_track = document.createElement('audio');
 let track_list = [
     {
         name: "Regal",
-        artist: "satvik",
+
         image: "https://www.linkpicture.com/q/regal_1.png",
         path: "https://www.mboxdrive.com/Royalty.mp3"
     },
      {
         name: "Continuos",
-        artist: "satvik",
+   
         image: "https://www.linkpicture.com/q/continous.png",
         path: "https://www.mboxdrive.com/Continous.mp3"
+    },
+    {
+        name: "All For One",
+      
+        image: "https://www.linkpicture.com/q/allfor1.png",
+        path: "https://www.mboxdrive.com/all for one.mp3"
     }
 ];
 
@@ -45,7 +51,7 @@ function loadTrack(track_index) {
 
     track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
     track_name.textContent = track_list[track_index].name;
-    track_artist.textContent = track_list[track_index].artist;
+ 
     now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
 
     updateTimer = setInterval(seekUpdate, 1000);
